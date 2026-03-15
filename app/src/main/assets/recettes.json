@@ -1,0 +1,24 @@
+{
+  "recettes": [
+    {
+      "nom": "Salade de pomme",
+      "ingredients": "pomme, olive, citron"
+    },
+    {
+      "nom": "Poulet Grillé",
+      "ingredients": "riz, poulet, épices"
+    },
+    {
+      "nom": "Smoothie Bowl",
+      "ingredients": "banane, fruits rouges, granola"
+    },
+    {
+      "nom": "Saumon à la vapeur",
+      "ingredients": "saumon, brocoli, riz complet"
+    },
+    {
+      "nom": "Salade quinoa",
+      "ingredients": "quinoa, concombre, tomate, feta"
+    }
+  ]
+}

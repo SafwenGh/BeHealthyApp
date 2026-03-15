@@ -8,23 +8,40 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Base.Theme.Behealthypp">
+        android:theme="@style/Theme.Behealthypp">
+
+        <!-- TP5: LOGIN ACTIVITY (Main Activity - écran de démarrage) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- TP5: LISTE RECETTES ACTIVITY -->
+        <activity
+            android:name=".ListRecettesActivity"
+            android:exported="false" />
+
+        <!-- TP3: PROFILE ACTIVITY (Écran d'accueil original) -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <!-- TP3: MAIN ACTIVITY (Premier écran du TP3) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- TP4: CATALOGUE ACTIVITY -->
         <activity
             android:name=".CatalogueActivity"
             android:exported="false" />
 
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <!-- Ajoutez d'autres activités ici si nécessaire -->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".ProfileActivity"
-            android:exported="false" />
     </application>
 
 </manifest>
