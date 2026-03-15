@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/primary_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/ivProduit1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/raquette"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:text="Raquette de plage tennis"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnProduit1"
+                android:text="Acheter"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/ivProduit2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ballgym"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:text="Ballon de Gym"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnProduit2"
+                android:text="Acheter"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/ivProduit3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/tapis"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:text="Tapis Training"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnProduit3"
+                android:text="Acheter"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

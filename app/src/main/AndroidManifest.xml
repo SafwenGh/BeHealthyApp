@@ -9,22 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.Behealthypp">
+        <activity
+            android:name=".CatalogueActivity"
+            android:exported="false" />
 
-        <!-- MainActivity declaration (already there) -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- ADD PROFILEACTIVITY HERE 👇 -->
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>
